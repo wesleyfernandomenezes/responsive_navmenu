@@ -1,0 +1,98 @@
+/*  MAIN FONT */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+/* ---------------------------------------- */
+
+/* DEFAUT CSS */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: rgb(150, 2, 93);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}
+
+/* ---------------------------------------- */
+
+header {
+    width: 100%;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #979797;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.nav-menu {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    text-transform: lowercase;
+}
+
+.nav-link {
+    color: #979797;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+/* JAVASCRIPT CLASS 
+------------------------------------------------ */
+.hamburger-menu.when-active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.when-active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg)
+}
+
+.hamburger-menu.when-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg)
+}
+
+.nav-menu.active {
+    left: 0;
+    opacity: 1;
+    transition: all 0.8s ease-in-out;
+}
+/* END OF JAVASCRIPT CLASS 
+------------------------------------------------ */

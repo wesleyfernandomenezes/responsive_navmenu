@@ -1,0 +1,219 @@
+/* 
+=================================================
+01: EXTRA SMALL DEVICES
+=================================================
+*/
+
+@media screen and (min-width: 240px) and (max-width: 359px) {
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+        height: 100vh;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .navbar ul li {
+        width: 100%;
+    }
+
+    .navbar ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-link {
+        font-size: 15px;
+        text-transform: lowercase;
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 30px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .nav-link:hover {
+        background: rgb(0, 89, 95);
+        color: white;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .hamburger-menu {
+        font-size: 1rem;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        z-index: 1500;
+    }
+
+    .hamburger-menu .bar {
+        display: block;
+        cursor: pointer;
+        background: white;
+    }
+
+    .line1, .line2, .line3 {
+        width: 28px;
+        height: 3px;
+        margin: 6px;
+        border-radius: 10px;
+        transition: 0.4s; 
+    }
+
+}
+
+/* 
+=================================================
+01: MOBILE
+=================================================
+*/
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+        height: 100vh;
+    }
+
+    .navbar ul li {
+        width: 100%;
+    }
+
+    .navbar ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        text-transform: lowercase;
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 60px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .nav-link:hover {
+        background: rgb(0, 89, 95);
+        color: white;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .hamburger-menu {
+        font-size: 1rem;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        z-index: 1500;
+    }
+
+    .hamburger-menu .bar {
+        display: block;
+        cursor: pointer;
+        background: white;
+    }
+
+    .line1, .line2, .line3 {
+        width: 28px;
+        height: 3px;
+        margin: 6px;
+        border-radius: 10px;
+        transition: 0.4s; 
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+        height: 100vh;
+    }
+
+    .navbar ul li {
+        width: 100%;
+    }
+
+    .navbar ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-link {
+        font-size: 30px;
+        text-transform: lowercase;
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 60px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .nav-link:hover {
+        background: rgb(0, 89, 95);
+        color: white;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .hamburger-menu {
+        font-size: 1rem;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        z-index: 1500;
+    }
+
+    .hamburger-menu .bar {
+        display: block;
+        cursor: pointer;
+        background: white;
+    }
+
+    .line1, .line2, .line3 {
+        width: 28px;
+        height: 3px;
+        margin: 6px;
+        border-radius: 10px;
+        transition: 0.4s; 
+    }
+
+}
